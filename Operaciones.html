@@ -14,11 +14,11 @@ function operaciones(op)
 
         restar: function restarNumeros(n1, n2) {
             return (parseInt(n1) - parseInt(n2));
-        },       
-        multiplicar: function multiplicarNumeros(n1, n2) {
+        },
+
+	multiplicar: function multiplicarNumeros(n1, n2) {
             return (parseInt(n1) * parseInt(n2));
         }
-
 
     };
 
@@ -49,8 +49,7 @@ function operaciones(op)
                 var resultado = ops.restar(num1, num2);
                 alert (resultado);
                 break;
-
-            case 'multiplicar':
+	    case 'multiplicar':
                 var resultado = ops.multiplicar(num1, num2);
                 alert(resultado);
                 break;
